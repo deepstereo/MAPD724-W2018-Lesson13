@@ -43,6 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="NextButton" destination="vbJ-mV-eh3" id="6Mq-Rb-T5Z"/>
                         <outlet property="StartScreenLabel" destination="sur-vz-fjJ" id="akV-no-u43"/>
                         <segue destination="Uhj-sc-mWn" kind="presentation" identifier="SecondView" id="KK6-Gy-dR2"/>
                     </connections>
@@ -147,6 +148,6 @@
         <image name="NextButton" width="150" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Vg5-6g-Ibp"/>
+        <segue reference="KK6-Gy-dR2"/>
     </inferredMetricsTieBreakers>
 </document>
