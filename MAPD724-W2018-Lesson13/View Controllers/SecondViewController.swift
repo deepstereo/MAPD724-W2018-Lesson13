@@ -16,5 +16,13 @@ class SecondViewController: UIViewController {
         
     }
     
+    @IBAction func BackButton(_ sender: UIButton) {
+        performSegue(withIdentifier: SegueManager.StartView, sender: sender)
+    }
+    
+    @IBAction func NextButton(_ sender: UIButton) {
+        performSegue(withIdentifier: SegueManager.EndView, sender: sender)
+    }
+    
     
 }

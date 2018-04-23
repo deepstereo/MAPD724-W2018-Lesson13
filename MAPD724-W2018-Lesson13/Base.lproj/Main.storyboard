@@ -22,6 +22,9 @@
                                 <rect key="frame" x="112" y="597" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="NextButton"/>
+                                <connections>
+                                    <action selector="NextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjt-1m-p7J"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,11 +50,17 @@
                                 <rect key="frame" x="209" y="597" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BackButton"/>
+                                <connections>
+                                    <action selector="BackButton:" destination="Uhj-sc-mWn" eventType="touchUpInside" id="1JX-Dr-EN2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjg-n0-8dA">
                                 <rect key="frame" x="16" y="597" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="NextButton"/>
+                                <connections>
+                                    <action selector="NextButton:" destination="Uhj-sc-mWn" eventType="touchUpInside" id="zmb-6I-5HD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,6 +87,9 @@
                                 <rect key="frame" x="112" y="597" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BackButton"/>
+                                <connections>
+                                    <action selector="BackButton:" destination="WwQ-0u-x4B" eventType="touchUpInside" id="IN9-SH-Id3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

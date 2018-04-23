@@ -3,6 +3,8 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +19,11 @@ class StartViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
     }
+    
+    @IBAction func NextButton(_ sender: UIButton) {
+        performSegue(withIdentifier: SegueManager.SecondView, sender: sender)
+    }
+    
     
 
 }

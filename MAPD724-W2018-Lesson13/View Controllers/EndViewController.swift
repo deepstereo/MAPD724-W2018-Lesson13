@@ -16,5 +16,8 @@ class EndViewController: UIViewController {
         
     }
     
+    @IBAction func BackButton(_ sender: UIButton) {
+        performSegue(withIdentifier: SegueManager.SecondView, sender: sender)
+    }
     
 }

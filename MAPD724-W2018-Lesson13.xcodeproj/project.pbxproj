@@ -17,6 +17,7 @@
 		E9C1F4ED208E9B9F00D7683B /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1F4EC208E9B9F00D7683B /* AnimationManager.swift */; };
 		E9C1F4F2208E9EF300D7683B /* NextButton in Resources */ = {isa = PBXBuildFile; fileRef = E9C1F4F0208E9EF300D7683B /* NextButton */; };
 		E9C1F4F3208E9EF300D7683B /* BackButton in Resources */ = {isa = PBXBuildFile; fileRef = E9C1F4F1208E9EF300D7683B /* BackButton */; };
+		E9C1F4F5208EA02400D7683B /* SegueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1F4F4208EA02400D7683B /* SegueManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E9C1F4EC208E9B9F00D7683B /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
 		E9C1F4F0208E9EF300D7683B /* NextButton */ = {isa = PBXFileReference; lastKnownFileType = file; path = NextButton; sourceTree = "<group>"; };
 		E9C1F4F1208E9EF300D7683B /* BackButton */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackButton; sourceTree = "<group>"; };
+		E9C1F4F4208EA02400D7683B /* SegueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				E9C1F4EC208E9B9F00D7683B /* AnimationManager.swift */,
+				E9C1F4F4208EA02400D7683B /* SegueManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				E9C1F4D3208E980500D7683B /* AppDelegate.swift in Sources */,
 				E9C1F4E6208E997300D7683B /* StartViewController.swift in Sources */,
 				E9C1F4ED208E9B9F00D7683B /* AnimationManager.swift in Sources */,
+				E9C1F4F5208EA02400D7683B /* SegueManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
