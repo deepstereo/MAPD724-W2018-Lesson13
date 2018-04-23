@@ -1,6 +1,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    @IBOutlet weak var SecondScreenLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -43,6 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="StartScreenLabel" destination="sur-vz-fjJ" id="akV-no-u43"/>
                         <segue destination="Uhj-sc-mWn" kind="presentation" identifier="SecondView" id="KK6-Gy-dR2"/>
                     </connections>
                 </viewController>
@@ -91,6 +92,7 @@
                         <viewLayoutGuide key="safeArea" id="4dg-Po-XnB"/>
                     </view>
                     <connections>
+                        <outlet property="SecondScreenLabel" destination="8zU-lg-09u" id="NMw-3J-Ty2"/>
                         <segue destination="WwQ-0u-x4B" kind="presentation" identifier="EndView" id="guC-iA-gI7"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="StartView" id="eBD-bk-NKQ"/>
                     </connections>
@@ -131,6 +133,7 @@
                         <viewLayoutGuide key="safeArea" id="4YM-Vc-gav"/>
                     </view>
                     <connections>
+                        <outlet property="EndScreenLabel" destination="P5j-C5-zKf" id="jA2-Ch-9Y6"/>
                         <segue destination="Uhj-sc-mWn" kind="presentation" identifier="SecondView" id="Vg5-6g-Ibp"/>
                     </connections>
                 </viewController>

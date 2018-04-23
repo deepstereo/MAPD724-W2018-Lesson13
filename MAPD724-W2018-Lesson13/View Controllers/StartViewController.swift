@@ -3,6 +3,7 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+    @IBOutlet weak var StartScreenLabel: UILabel!
     
     
     override func viewDidLoad() {
