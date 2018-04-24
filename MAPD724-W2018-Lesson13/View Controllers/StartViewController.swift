@@ -30,7 +30,7 @@ class StartViewController: UIViewController {
     }
     
     func AnimateLabelIn() {
-        UIView.animate(withDuration: 1, delay: 0.25,
+        UIView.animate(withDuration: 0.5, delay: 0.25,
                        options: [.curveEaseInOut], animations: {
                         self.StartScreenLabel.alpha = 1
                         self.StartScreenLabel.center.y -= 50
@@ -38,16 +38,16 @@ class StartViewController: UIViewController {
     }
     
     func AnimateButtonIn() {
-        UIView.transition(with: self.NextButton, duration: 2,
+        UIView.transition(with: self.NextButton, duration: 1,
                           options: [.transitionFlipFromTop], animations: {
                           self.NextButton.isHidden = false
         }, completion: nil)
     }
     
     func MoveButtonOver() {
-        UIView.animate(withDuration: 2, delay: 0.25,
+        UIView.animate(withDuration: 0.5, delay: 0.25,
                        options: [.curveEaseIn], animations: {
-                        self.NextButton.center.x += 125
+                        self.NextButton.center.x += 100
         }, completion: nil)
     }
     
